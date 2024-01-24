@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div::first-line{
+            color: green
+        }
+        div::first-letter{
+            color: red;
+        }
+        p::before{
+            content: "telegram ";
+        }
+        p::after{
+            content: " are nice";
+        }
+        li::marker{
+            color: tomato;
+        }
+        p::selection{
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Horror Movies</p>
+        <p>Comedy Movies</p>
+        <p>Action Movies</p>
+        <p>Netflix Series</p>
+        <p>Horror Series</p>
+        <p>Comedy Series</p>
+        <li>Anna Bella</li>
+        <li>Nun</li>
+        <li>Stranger Things</li>
+    </div>
+</body>
+</html>

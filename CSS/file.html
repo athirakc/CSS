@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* .para1{
+            background-color: aqua;
+        } */
+        div ~ p{
+            background-color: red;
+        }
+       /* #p1{
+        background-color: blueviolet;
+       } */
+       input:focus{
+        background-color: chartreuse;
+       }
+       ul li{
+        list-style-type: decimal;
+       }
+      li:nth-child(5n){
+        color: red;
+       }
+       tr:nth-child(even){
+        background-color: gray;
+       }
+       img{
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+       }
+       .container{
+        display: flex;
+        flex-wrap: nowrap;
+       }
+       .im12{
+         height: 200px;
+         width: 200px;
+      }
+        .im12:hover{
+        transform: rotateY(90deg);
+        transition-duration: 5s;
+        transition-delay: 1s;
+       }
+    .im14:hover{
+        transform: skewZ(90deg);
+        transition-duration: 2s;
+    }
+    .im11:hover{
+        transform: scale(2,4);
+        
+    }
+    .spdman:hover{
+        transform: translate(100px,400px);
+        transition-duration: 4s;
+    }
+    </style>
+    <script src="https://kit.fontawesome.com/0d1aef9724.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <input type="text"/>
+    <a href="https://www.zomato.com/india">zomato</a>
+    <a href="https://www.netflix.com/in/">Netflix</a>
+    <a href="https://www.flipkart.com/">Flipkart</a>
+    <a href="https://www.flipkart.com/">Telegram</a>
+    <a href="https://www.flipkart.com/">Snapchat</a>
+    <div class="divbody">
+        <p>content</p>
+        <section>
+            <p>descendant</p>
+        </section>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur quasi laborum odit blanditiis eum excepturi, rerum, illum aliquid esse perspiciatis. Excepturi, voluptatum optio molestias doloribus reprehenderit soluta. Adipisci, numquam.</p>
+
+<p>adjacent</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quam deleniti ipsa itaque, dicta sit id nisi praesentium animi. Alias corporis incidunt laudantium quod vitae fuga voluptas culpa ipsa recusandae.</p>
+    <table border="2px">
+       <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jack</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>John</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>John</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>John</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    
+    </div>
+    <ul class="pseudo">
+        <li>HTML</li>
+   
+        <li>HTML</li>
+        <li> <i class="fa-solid fa-fish fa-spin-pulse fa-2xs" style="color: #133bb4;"></i>CSS</li>
+        <li>BOOTSTRAP</li>
+        <li>JAVASCRIPT</li>
+        <li>REACT</li>     <li> <i class="fa-solid fa-fish fa-spin-pulse fa-2xs" style="color: #133bb4;"></i>CSS</li>
+        <li>BOOTSTRAP</li>
+        <li>JAVASCRIPT</li>
+        <li>REACT</li>
+    </ul> -->
+
+    <!-- <ul>
+        <li>Nonveg</li>
+        <ol>
+            <li>Chicken Biriyani</li>
+            <li>Beef Fry</li>
+            <li>Alfaham</li>
+            <li>Mutton shawarma</li>
+            <li> <i class="fa-solid fa-fish fa-spin-pulse fa-2xs" style="color: #133bb4;"></i>Fish curry</li>
+            <ul>
+                <li>Veg</li>
+                <ol>
+                    <li>Sambhar</li>
+                    <li>Paneer thikka</li>
+                    <li>Gopimanchuriyan</li>
+                </ol>
+            </ul>
+        </ol> -->
+
+    </ul>
+    <!-- flex -->
+    <div class="container">
+        <h1>Harry Potter</h1>
+       
+        <img src="https://media.vanityfair.com/photos/5b27efaa6163e4725653cbaa/master/pass/clarke-game-of-thrones-goodbye.jpg" class="im12"/>
+
+        <img src="https://m.media-amazon.com/images/M/MV5BMmZlYTQ3NjQtZmIxNC00MzA4LTg1NDgtMmEzODk0MzA4NjQxXkEyXkFqcGdeQXVyMTEyMjM2NDc2.V1_FMjpg_UX1000.jpg" class="im11"/>
+     <img src="https://cdn.britannica.com/82/152982-050-11159CF4/Daniel-Radcliffe-Rupert-Grint-Emma-Watson-Harry.jpg" class="im14"/> 
+     <img src="https://variety.com/wp-content/uploads/2023/05/spider-2.jpg?w=1000" class="spdman"/>
+
+        
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://www.wallart.com/media/catalog/product/cache/5b18b93ddbe5d6592c6b175f41d24454/w/0/w00659.jpg");
+            row-gap: 10px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 30px;
+        
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+       
+        .c1{
+            /* border: solid white; */
+            background-color: beige;
+            height: 200px;
+            width: 200px;
+            margin: 0;
+            display: grid;
+            align-items: center;
+        }
+        .c2{
+            /* border: solid white; */
+            background-color: lightskyblue;
+            height: 200px;
+            width: 200px;
+            margin: 0;
+            text-align: center;
+            display: grid;
+            align-items: center;
+        
+        }
+        .c3{
+            /* border: solid white; */
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            margin: 0;
+            display: grid;
+            align-items: center;
+            text-align: center;
+        
+        }
+        .c4{
+            height: 200px;
+            width: 200px;
+            margin: 0;
+            text-align: center;
+            display: grid;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+            
+            
+        }
+        img:hover{
+            transform: rotateX(180deg);
+        }
+        .c1:hover{
+            transform: scale(1.2,1.2);
+        }
+        .c2:hover{
+            transform: skew(90deg);
+        }
+        .c3:hover{
+            transform: rotate(360deg);
+            transition-duration: 2s;
+        }
+        .c4:hover{
+            transform: rotate(360deg);
+            transition-duration: 2s;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>PROJECTS</h1>
+    <div class="container">
+        <img src="https://images.pexels.com/photos/8566536/pexels-photo-8566536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img">
+        <h1 class="c1">WEB DESIGN</h1>
+        <h1 class="c2">CHAT BOATS</h1>
+        <h1 class="c3">GAME DESIGN</h1>
+        <h1 class="c1">TEXT ANALYSIS</h1>
+        <h1 class="c2">JAVA SCRIPT</h1>
+        <h1 class="c4">DATA PRIVACY</h1>
+        <img src="https://images.pexels.com/photos/8566536/pexels-photo-8566536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img">
+
+    </div>
+</body>
+</html>
